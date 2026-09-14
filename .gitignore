@@ -1,0 +1,46 @@
+# Local credentials; keep the blank setup template.
+.env*
+!.env.example
+
+# Personal documents, notes, previews, audio and lookup history.
+/data/
+
+# Dependencies and generated builds.
+.venv/
+venv/
+node_modules/
+dist/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Test reports, caches and logs.
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+test-results/
+playwright-report/
+playwright/.cache/
+*.log
+
+# Local databases and rebuild intermediates. Ship the offline dictionary.
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite*-wal
+*.sqlite*-shm
+*.sqlite*-journal
+!/backend/assets/english-chinese.sqlite3
+
+# Editor backups and operating-system metadata.
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

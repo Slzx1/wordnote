@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/skywind3000/ECDICT",
+  "file": "ecdict.csv",
+  "source_sha256": "d0ce61e560b50d9905d20de3173aa3ca80950ce235bedd21c53e025cf9f38cb0",
+  "entries": 768739,
+  "license": "MIT",
+  "index_format": 1
+}
